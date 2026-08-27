@@ -5,7 +5,7 @@
 ## Estado atual
 
 **Sprint:** Sprint 0 — Fundação
-**Etapa:** Etapa 0.3 — Configuração da infraestrutura
+**Etapa:** Etapa 0.4 — Instalação e configuração do Breeze
 **Status:** CONCLUÍDA
 
 ---
@@ -13,396 +13,386 @@
 # Histórico de execução
 
 ## Sprint 0 — Fundação
+    ### Etapa 0.1 — Preparação do repositório
+    **Status:** CONCLUÍDA
 
-### Etapa 0.1 — Preparação do repositório
+    ### Objetivo
+        Preparar o repositório Git e a estrutura inicial de documentação do projeto.
 
-**Status:** CONCLUÍDA
+    ### Realizado
+        - Repositório `gerenciador-financeiro-v1` criado no GitHub.
+        - Repositório local clonado em `C:\laragon\www\gerenciador-financeiro-v1`.
+        - Branch `main` criada.
+        - Branch `develop` criada.
+        - Branch de desenvolvimento configurada como `develop`.
+        - Estrutura `docs/` criada.
+        - `docs/ARQUITETURA.md` adicionado.
+        - `docs/SPRINTS.md` adicionado.
+        - `docs/PROGRESSO.md` criado.
+        - Primeiro commit realizado.
+        - Branch `develop` enviada ao GitHub.
+        - Branch `main` enviada ao GitHub.
+        - `main` e `develop` apontam para o mesmo commit inicial.
 
-### Objetivo
+    ### Validação
+        Foi executada a validação do estado do Git.
 
-Preparar o repositório Git e a estrutura inicial de documentação do projeto.
+        Resultado:
 
-### Realizado
+        ```text
+        Branch atual: develop
+        Branch remota: origin/develop
+        Working tree: clean
+        ```
 
-- Repositório `gerenciador-financeiro-v1` criado no GitHub.
-- Repositório local clonado em `C:\laragon\www\gerenciador-financeiro-v1`.
-- Branch `main` criada.
-- Branch `develop` criada.
-- Branch de desenvolvimento configurada como `develop`.
-- Estrutura `docs/` criada.
-- `docs/ARQUITETURA.md` adicionado.
-- `docs/SPRINTS.md` adicionado.
-- `docs/PROGRESSO.md` criado.
-- Primeiro commit realizado.
-- Branch `develop` enviada ao GitHub.
-- Branch `main` enviada ao GitHub.
-- `main` e `develop` apontam para o mesmo commit inicial.
+        Branches:
 
-### Validação
+        ```text
+        main    → 16b84fb
+        develop → 16b84fb
+        ```
 
-Foi executada a validação do estado do Git.
+    ### Testes
+        Não há testes automatizados nesta etapa.
 
-Resultado:
+        Validação realizada:
 
-```text
-Branch atual: develop
-Branch remota: origin/develop
-Working tree: clean
-```
+        ```text
+        git status
+        git branch -vv
+        git log --oneline -1
+        ```
 
-Branches:
+        Resultado:
 
-```text
-main    → 16b84fb
-develop → 16b84fb
-```
+        ```text
+        working tree clean
+        develop sincronizada com origin/develop
+        main sincronizada com origin/main
+        ```
 
-### Testes
+    ### Git
 
-Não há testes automatizados nesta etapa.
+        #### Commit
+        ```text
+        16b84fb chore: inicializa documentação do projeto
+        ```
 
-Validação realizada:
+        #### Branches
+        ```text
+        main
+        develop
+        ```
 
-```text
-git status
-git branch -vv
-git log --oneline -1
-```
+        #### Remotos
+        ```text
+        origin/main
+        origin/develop
+        ```
 
-Resultado:
-
-```text
-working tree clean
-develop sincronizada com origin/develop
-main sincronizada com origin/main
-```
-
-### Git
-
-#### Commit
-
-```text
-16b84fb chore: inicializa documentação do projeto
-```
-
-#### Branches
-
-```text
-main
-develop
-```
-
-#### Remotos
-
-```text
-origin/main
-origin/develop
-```
-
-### Tag
-
-```text
-sprint-0-etapa-0.1
-```
+        ### Tag
+        ```text
+        sprint-0-etapa-0.1``
 
 ---
 
-### Etapa 0.2 — Criação da aplicação Laravel
+    ### Etapa 0.2 — Criação da aplicação Laravel
+    **Status:** CONCLUÍDA
 
-**Status:** CONCLUÍDA
+    ### Objetivo
+        Criar a aplicação base Laravel 13 dentro do repositório existente, preservando o histórico Git e a documentação oficial.
 
-### Objetivo
+    ### Realizado
+        - Repositório `gerenciador-financeiro-v1` preparado para receber a aplicação Laravel.
+        - Instalação da aplicação Laravel realizada em diretório temporário.
+        - Aplicação Laravel copiada para o repositório `gerenciador-financeiro-v1`.
+        - Estrutura `.git` preservada.
+        - Diretório `docs/` preservado.
+        - `ARQUITETURA.md` preservado.
+        - `SPRINTS.md` preservado.
+        - `PROGRESSO.md` preservado.
+        - Pasta temporária removida após a cópia.
+        - Laravel instalado na versão `13.29.0`.
+        - PHP utilizado na versão `8.3.26`.
+        - Composer utilizado na versão `2.9.4`.
+        - Aplicação Laravel adicionada ao Git.
+        - Commit da aplicação realizado.
+        - Branch `develop` enviada ao GitHub.
 
-Criar a aplicação base Laravel 13 dentro do repositório existente, preservando o histórico Git e a documentação oficial.
+    ### Validação
+        Foi executada a validação técnica da aplicação Laravel e do repositório Git.
 
-### Realizado
+        Resultado:
 
-- Repositório `gerenciador-financeiro-v1` preparado para receber a aplicação Laravel.
-- Instalação da aplicação Laravel realizada em diretório temporário.
-- Aplicação Laravel copiada para o repositório `gerenciador-financeiro-v1`.
-- Estrutura `.git` preservada.
-- Diretório `docs/` preservado.
-- `ARQUITETURA.md` preservado.
-- `SPRINTS.md` preservado.
-- `PROGRESSO.md` preservado.
-- Pasta temporária removida após a cópia.
-- Laravel instalado na versão `13.29.0`.
-- PHP utilizado na versão `8.3.26`.
-- Composer utilizado na versão `2.9.4`.
-- Aplicação Laravel adicionada ao Git.
-- Commit da aplicação realizado.
-- Branch `develop` enviada ao GitHub.
+        ```text
+        Laravel Framework 13.29.0
+        PHP 8.3.26
+        Composer 2.9.4
+        ```
 
-### Validação
+        Estado do Git:
 
-Foi executada a validação técnica da aplicação Laravel e do repositório Git.
+        ```text
+        Branch atual: develop
+        Branch remota: origin/develop
+        Working tree: clean
+        ```
 
-Resultado:
+    ### Testes
 
-```text
-Laravel Framework 13.29.0
-PHP 8.3.26
-Composer 2.9.4
-```
+        Foi executado:
 
-Estado do Git:
+        ```text
+        php artisan test
+        ```
 
-```text
-Branch atual: develop
-Branch remota: origin/develop
-Working tree: clean
-```
+        Resultado:
 
-### Testes
+        ```text
+        Tests:    2 passed
+        Assertions: 2
+        Failures: 0
+        ```
 
-Foi executado:
+        Testes executados:
 
-```text
-php artisan test
-```
+        ```text
+        Tests\Unit\ExampleTest
+        Tests\Feature\ExampleTest
+        ```
 
-Resultado:
+    ### Git
 
-```text
-Tests:    2 passed
-Assertions: 2
-Failures: 0
-```
+        #### Commit
 
-Testes executados:
+        ```text
+        aa2f6e3 chore: inicializa aplicação Laravel 13
+        ```
 
-```text
-Tests\Unit\ExampleTest
-Tests\Feature\ExampleTest
-```
+        #### Branch atual
 
-### Git
+        ```text
+        develop
+        ```
 
-#### Commit
+        #### Remoto
 
-```text
-aa2f6e3 chore: inicializa aplicação Laravel 13
-```
+        ```text
+        origin/develop
+        ```
 
-#### Branch atual
+        ### Tag
 
-```text
-develop
-```
-
-#### Remoto
-
-```text
-origin/develop
-```
-
-### Tag
-
-```text
-sprint-0-etapa-0.2
-```
+        ```text
+        sprint-0-etapa-0.2
+        ```
 
 ---
 
-### Etapa 0.3 — Configuração da infraestrutura
+    ### Etapa 0.3 — Configuração da infraestrutura
+    **Status:** CONCLUÍDA
 
-**Status:** CONCLUÍDA
+    ### Objetivo
+        Configurar a infraestrutura inicial da aplicação Laravel para utilização de MySQL e validar a aplicação, banco de dados, dependências frontend, Vite e testes automatizados.
 
-### Objetivo
+    ### Realizado
+        - Banco MySQL `gerenciador_financeiro` criado.
+        - Banco configurado com `utf8mb4`.
+        - Collation configurada como `utf8mb4_unicode_ci`.
+        - `.env` configurado para utilizar MySQL.
+        - Host configurado como `127.0.0.1`.
+        - Porta configurada como `3306`.
+        - Usuário configurado como `root`.
+        - Laravel confirmado utilizando conexão `mysql`.
+        - Migrations padrão do Laravel executadas.
+        - Tabela `migrations` criada.
+        - Tabela `users` criada.
+        - Tabela `cache` criada.
+        - Tabela `jobs` criada.
+        - Dependências frontend instaladas com `npm install`.
+        - Auditoria do `npm install` concluída com `0 vulnerabilities`.
+        - Identificado erro de build causado pelo download externo da fonte `Instrument Sans` via `fonts.bunny.net`.
+        - Removida a configuração de fonte externa do `vite.config.js`.
+        - Vite configurado sem dependência de download externo de fontes.
+        - Build de produção executado com sucesso.
 
-Configurar a infraestrutura inicial da aplicação Laravel para utilização de MySQL e validar a aplicação, banco de dados, dependências frontend, Vite e testes automatizados.
+    ### Validação
+        Foi executada a validação da configuração do banco e da aplicação.
 
-### Realizado
+        Configuração confirmada:
 
-- Banco MySQL `gerenciador_financeiro` criado.
-- Banco configurado com `utf8mb4`.
-- Collation configurada como `utf8mb4_unicode_ci`.
-- `.env` configurado para utilizar MySQL.
-- Host configurado como `127.0.0.1`.
-- Porta configurada como `3306`.
-- Usuário configurado como `root`.
-- Laravel confirmado utilizando conexão `mysql`.
-- Migrations padrão do Laravel executadas.
-- Tabela `migrations` criada.
-- Tabela `users` criada.
-- Tabela `cache` criada.
-- Tabela `jobs` criada.
-- Dependências frontend instaladas com `npm install`.
-- Auditoria do `npm install` concluída com `0 vulnerabilities`.
-- Identificado erro de build causado pelo download externo da fonte `Instrument Sans` via `fonts.bunny.net`.
-- Removida a configuração de fonte externa do `vite.config.js`.
-- Vite configurado sem dependência de download externo de fontes.
-- Build de produção executado com sucesso.
+        ```text
+        Laravel Framework 13.29.0
+        PHP 8.3.26
+        Composer 2.9.4
+        Database: mysql
+        Host: 127.0.0.1
+        Port: 3306
+        Database: gerenciador_financeiro
+        Username: root
+        Charset: utf8mb4
+        Collation: utf8mb4_unicode_ci
+        ```
 
-### Validação
+        Migrations:
 
-Foi executada a validação da configuração do banco e da aplicação.
+        ```text
+        0001_01_01_000000_create_users_table  [1] Ran
+        0001_01_01_000001_create_cache_table  [1] Ran
+        0001_01_01_000002_create_jobs_table   [1] Ran
+        ```
 
-Configuração confirmada:
+        Build:
 
-```text
-Laravel Framework 13.29.0
-PHP 8.3.26
-Composer 2.9.4
-Database: mysql
-Host: 127.0.0.1
-Port: 3306
-Database: gerenciador_financeiro
-Username: root
-Charset: utf8mb4
-Collation: utf8mb4_unicode_ci
-```
+        ```text
+        vite v8.2.2
+        3 modules transformed
+        Build completed successfully
+        ```
 
-Migrations:
+    ### Testes
+        Foi executado:
 
-```text
-0001_01_01_000000_create_users_table  [1] Ran
-0001_01_01_000001_create_cache_table  [1] Ran
-0001_01_01_000002_create_jobs_table   [1] Ran
-```
+        ```text
+        php artisan test
+        ```
 
-Build:
+        Resultado:
 
-```text
-vite v8.2.2
-3 modules transformed
-Build completed successfully
-```
+        ```text
+        Tests:    2 passed
+        Assertions: 2
+        Failures: 0
+        ```
 
-### Testes
+        Testes executados:
 
-Foi executado:
+        ```text
+        Tests\Unit\ExampleTest
+        Tests\Feature\ExampleTest
+        ```
 
-```text
-php artisan test
-```
+        Também foram executados:
 
-Resultado:
+        ```text
+        npm install
+        npm run build
+        php artisan migrate
+        php artisan migrate:status
+        php artisan about
+        ```
 
-```text
-Tests:    2 passed
-Assertions: 2
-Failures: 0
-```
+        Resultado do `npm install`:
 
-Testes executados:
+        ```text
+        56 packages added
+        0 vulnerabilities
+        ```
 
-```text
-Tests\Unit\ExampleTest
-Tests\Feature\ExampleTest
-```
+    ### Git
 
-Também foram executados:
+        #### Commit
 
-```text
-npm install
-npm run build
-php artisan migrate
-php artisan migrate:status
-php artisan about
-```
+        ```text
 
-Resultado do `npm install`:
+        ```
 
-```text
-56 packages added
-0 vulnerabilities
-```
+        #### Branches
 
-### Git
+        ```text
+        main
+        develop
+        ```
 
-#### Commit
+        #### Remotos
 
-Será registrado no fechamento da etapa.
+        ```text
+        origin/main
+        origin/develop
+        ```
 
-#### Branch
+        ### Tag
 
-```text
-develop
-```
-
-#### Remoto
-
-```text
-origin/develop
-```
-
-### Tag
-
-```text
-sprint-0-etapa-0.3
-```
-
+        ```text
+        sprint-0-etapa-0.3
+        ```
 ---
 
-### Etapa 0.4 — Instalação e configuração do Breeze
+    ### Etapa 0.4 — Instalação e configuração do Breeze
+    **Status:** CONCLUÍDA
 
-**Status:** CONCLUÍDA
+    ### Objetivo
+        Instalar e configurar o Laravel Breeze para fornecer a estrutura inicial de autenticação da aplicação, utilizando Blade com Alpine.js, mantendo o tema claro e PHPUnit como framework de testes.
 
-### Objetivo
+    ### Realizado
+        - Laravel Breeze instalado como dependência de desenvolvimento.
+        - Stack `Blade with Alpine` selecionada.
+        - Dark mode desabilitado.
+        - PHPUnit selecionado como framework de testes.
+        - Estrutura de autenticação do Breeze instalada.
+        - Migrations executadas com sucesso após a instalação.
+        - Build dos assets executado com sucesso após a instalação.
+        - Configuração de autenticação preparada para as próximas etapas.
 
-Instalar e configurar o Laravel Breeze para fornecer a estrutura inicial de autenticação da aplicação, utilizando Blade com Alpine.js, mantendo o tema claro e PHPUnit como framework de testes.
+    ### Validação
+        Foi executada a instalação do Laravel Breeze.
 
-### Realizado
+    Configuração selecionada:
 
-- Laravel Breeze instalado como dependência de desenvolvimento.
-- Stack `Blade with Alpine` selecionada.
-- Dark mode desabilitado.
-- PHPUnit selecionado como framework de testes.
-- Estrutura de autenticação do Breeze instalada.
-- Migrations executadas com sucesso após a instalação.
-- Build dos assets executado com sucesso após a instalação.
-- Configuração de autenticação preparada para as próximas etapas.
-
-### Validação
-
-Foi executada a instalação do Laravel Breeze.
-
-Configuração selecionada:
-
-```text
-Stack: Blade with Alpine
-Dark mode: não
-Testes: PHPUnit
+        ``text
+        Stack: Blade with Alpine
+        Dark mode: não
+        Testes: PHPUnit
 
 
 
-Migrations:
+        Migrations:
 
-php artisan migrate
+        php artisan migrate
 
-Resultado:
+        Resultado:
 
-Executado sem erros
+        Executado sem erros
 
-Build:
+        Build:
 
-npm run build
+        npm run build
 
-Resultado:
+        Resultado:
 
-Executado sem erros
-Testes
+        Executado sem erros
+        Testes
 
-A etapa foi validada após a instalação do Breeze.
+        A etapa foi validada após a instalação do Breeze.
 
-Não foram identificados erros durante a execução das migrations ou do build.
+        Não foram identificados erros durante a execução das migrations ou do build.
 
-Git
-Commit
-A realizar
-Branch atual
-develop
-Remoto
-origin/develop
-Tag
 
-Ainda não criada.
+    ### Git
 
-Próximo passo
+        #### Commit
 
-Finalizar o registro da Etapa 0.4 no Git, realizar o commit, enviar a branch develop ao GitHub e criar a tag da etapa.
+        ```text
 
-Após o fechamento formal da Etapa 0.4:
+        ```
 
-Sprint 0 — Etapa 0.5
+        #### Branches
+
+        ```text
+        main
+        develop
+        ```
+
+        #### Remotos
+
+        ```text
+        origin/main
+        origin/develop
+        ```
+
+        ### Tag
+
+        ```text
+        sprint-0-etapa-0.4
+        ```
+---

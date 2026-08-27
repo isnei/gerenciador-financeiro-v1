@@ -5,7 +5,7 @@
 ## Estado atual
 
 **Sprint:** Sprint 0 — Fundação
-**Etapa:** Etapa 0.5 — Instalação e configuração do Livewire
+**Etapa:** Etapa 0.6 — Tailwind, Alpine e Lucide
 **Status:** CONCLUÍDA
 
 ---
@@ -456,9 +456,45 @@
         sprint-0-etapa-0.5
 
 
+Etapa 0.6 — Tailwind, Alpine e Lucide
 
+Status: CONCLUÍDA
+
+Objetivo
+
+Configurar e validar as ferramentas de interface previstas para a aplicação: Tailwind CSS, Alpine.js e Lucide.
+
+Realizado
+Tailwind CSS configurado.
+Alpine.js configurado.
+Lucide instalado.
+Dependências frontend instaladas.
+Build de produção executado com sucesso.
+Testes automatizados executados com sucesso.
+Informações da aplicação validadas com php artisan about.
+Nenhum erro identificado durante a validação da etapa.
+Validação
+
+Foram executados:
+
+npm install lucide
+npm run build
+php artisan test
+php artisan about
+
+Resultado:
+
+Todos os comandos executados sem erros.
+Git
+Commit
+feat: configura Tailwind Alpine e Lucide
+Branch atual
+develop
+Remoto
+origin/develop
+Tag
+sprint-0-etapa-0.6
 Próximo passo
+Sprint 0 — Etapa 0.7
 
-Sprint 0 — Etapa 0.6
-
-Tailwind, Alpine e Lucide
+Preparar a estrutura base da interface da aplicação, mantendo a arquitetura definida e utilizando os recursos já configurados nas etapas anteriores.

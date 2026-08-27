@@ -5,7 +5,7 @@
 ## Estado atual
 
 **Sprint:** Sprint 0 — Fundação
-**Etapa:** Etapa 0.6 — Tailwind, Alpine e Lucide
+**Etapa:** Etapa 0.7 — Estrutura base da interface
 **Status:** CONCLUÍDA
 
 ---
@@ -494,7 +494,48 @@ Remoto
 origin/develop
 Tag
 sprint-0-etapa-0.6
-Próximo passo
-Sprint 0 — Etapa 0.7
 
-Preparar a estrutura base da interface da aplicação, mantendo a arquitetura definida e utilizando os recursos já configurados nas etapas anteriores.
+
+
+
+Etapa 0.7 — Estrutura base da interface
+
+Status: CONCLUÍDA
+
+Objetivo
+
+Preparar a estrutura inicial da interface da aplicação, mantendo a arquitetura definida e a organização das views compatível com as etapas seguintes.
+
+Realizado
+DashboardController criado.
+Estrutura resources/views/layouts mantida a partir do Breeze.
+Estrutura resources/views/components disponível.
+Estrutura resources/views/pages criada.
+Estrutura resources/views/partials criada.
+Testes automatizados executados sem erros.
+Build de produção executado sem erros.
+Validação
+
+Foram executados:
+
+php artisan make:controller DashboardController
+php artisan test
+npm run build
+git status
+
+Resultado:
+
+Todos os comandos executados sem erros.
+Git
+Commit
+feat: cria estrutura base da interface
+Branch atual
+develop
+Remoto
+origin/develop
+Tag
+sprint-0-etapa-0.7
+Próximo passo
+Sprint 0 — Etapa 0.8
+
+Consolidar a fundação da aplicação e preparar a transição do Sprint 0 — Fundação para o próximo sprint de desenvolvimento funcional.

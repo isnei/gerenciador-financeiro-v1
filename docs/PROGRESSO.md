@@ -5,7 +5,7 @@
 ## Estado atual
 
 **Sprint:** Sprint 0 — Fundação
-**Etapa:** Etapa 0.4 — Instalação e configuração do Breeze
+**Etapa:** Etapa 0.5 — Instalação e configuração do Livewire
 **Status:** CONCLUÍDA
 
 ---
@@ -294,7 +294,7 @@
         #### Commit
 
         ```text
-
+        3b9127b chore: finaliza configuração da etapa 0.2
         ```
 
         #### Branches
@@ -361,6 +361,7 @@
         Resultado:
 
         Executado sem erros
+
         Testes
 
         A etapa foi validada após a instalação do Breeze.
@@ -373,7 +374,7 @@
         #### Commit
 
         ```text
-
+        29e88c7 feat: instala autenticação com Laravel Breeze
         ```
 
         #### Branches
@@ -396,3 +397,68 @@
         sprint-0-etapa-0.4
         ```
 ---
+
+    ### Etapa 0.5 — Instalação e configuração do Livewire
+    Status: CONCLUÍDA
+
+    Objetivo
+        Instalar e configurar o Livewire para utilização nos componentes interativos da aplicação, mantendo a arquitetura definida para o projeto.
+
+    Realizado
+        Livewire instalado através do Composer.
+        Configuração do Livewire publicada.
+        Arquivo config/livewire.php criado.
+        Migrations executadas sem erros.
+        Testes automatizados executados sem erros.
+        Build dos assets executado sem erros.
+        Configuração inicial do Livewire validada.
+        Validação
+
+    Foram executados:
+        composer require livewire/livewire
+        php artisan livewire:publish --config
+        php artisan migrate
+        php artisan livewire:list
+        php artisan migrate:status
+        php artisan test
+        npm run build
+
+        Resultado:
+
+        Executado sem erros
+
+    Testes
+
+        Foi executado:
+
+        php artisan test
+
+        Resultado:
+
+        Testes executados sem erros
+
+    Git
+
+        Commit
+
+        f85ee16 feat: instala e configura Livewire
+
+        Branch atual
+
+        develop
+
+        Remoto
+
+        origin/develop
+
+        Tag
+
+        sprint-0-etapa-0.5
+
+
+
+Próximo passo
+
+Sprint 0 — Etapa 0.6
+
+Tailwind, Alpine e Lucide

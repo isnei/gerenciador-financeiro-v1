@@ -311,11 +311,9 @@ Resultado do `npm install`:
 
 ### Git
 
-#### Último commit anterior à conclusão da etapa
+#### Commit
 
-```text
-aa2f6e3 chore: inicializa aplicação Laravel 13
-```
+Será registrado no fechamento da etapa.
 
 #### Branch
 
@@ -331,7 +329,7 @@ origin/develop
 
 ### Tag
 
-Ainda não criada.
+Será criada após o commit final da etapa.
 
 ---
 

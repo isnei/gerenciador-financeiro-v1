@@ -6,7 +6,7 @@
 
 **Sprint:** Sprint 0 — Fundação
 **Etapa:** Etapa 0.2 — Criação da aplicação Laravel
-**Status:** EM ANDAMENTO
+**Status:** CONCLUÍDA
 
 ---
 
@@ -24,19 +24,19 @@ Preparar o repositório Git e a estrutura inicial de documentação do projeto.
 
 ### Realizado
 
-* Repositório `gerenciador-financeiro-v1` criado no GitHub.
-* Repositório local clonado em `C:\laragon\www\gerenciador-financeiro-v1`.
-* Branch `main` criada.
-* Branch `develop` criada.
-* Branch de desenvolvimento configurada como `develop`.
-* Estrutura `docs/` criada.
-* `docs/ARQUITETURA.md` adicionado.
-* `docs/SPRINTS.md` adicionado.
-* `docs/PROGRESSO.md` criado.
-* Primeiro commit realizado.
-* Branch `develop` enviada ao GitHub.
-* Branch `main` enviada ao GitHub.
-* `main` e `develop` apontam para o mesmo commit inicial.
+- Repositório `gerenciador-financeiro-v1` criado no GitHub.
+- Repositório local clonado em `C:\laragon\www\gerenciador-financeiro-v1`.
+- Branch `main` criada.
+- Branch `develop` criada.
+- Branch de desenvolvimento configurada como `develop`.
+- Estrutura `docs/` criada.
+- `docs/ARQUITETURA.md` adicionado.
+- `docs/SPRINTS.md` adicionado.
+- `docs/PROGRESSO.md` criado.
+- Primeiro commit realizado.
+- Branch `develop` enviada ao GitHub.
+- Branch `main` enviada ao GitHub.
+- `main` e `develop` apontam para o mesmo commit inicial.
 
 ### Validação
 
@@ -107,9 +107,9 @@ sprint-0-etapa-0.1
 
 ---
 
-## Etapa 0.2 — Criação da aplicação Laravel
+### Etapa 0.2 — Criação da aplicação Laravel
 
-**Status:** EM ANDAMENTO
+**Status:** CONCLUÍDA
 
 ### Objetivo
 
@@ -117,21 +117,45 @@ Criar a aplicação base Laravel 13 dentro do repositório existente, preservand
 
 ### Realizado
 
-* Instalação da aplicação Laravel realizada em diretório temporário.
-* Aplicação Laravel copiada para o repositório `gerenciador-financeiro-v1`.
-* Estrutura `.git` preservada.
-* Diretório `docs/` preservado.
-* `ARQUITETURA.md` preservado.
-* `SPRINTS.md` preservado.
-* `PROGRESSO.md` preservado.
-* Pasta temporária removida após a cópia.
-* Laravel instalado na versão `13.29.0`.
-* PHP utilizado na versão `8.3.26`.
-* Composer utilizado na versão `2.9.4`.
+- Repositório `gerenciador-financeiro-v1` preparado para receber a aplicação Laravel.
+- Instalação da aplicação Laravel realizada em diretório temporário.
+- Aplicação Laravel copiada para o repositório `gerenciador-financeiro-v1`.
+- Estrutura `.git` preservada.
+- Diretório `docs/` preservado.
+- `ARQUITETURA.md` preservado.
+- `SPRINTS.md` preservado.
+- `PROGRESSO.md` preservado.
+- Pasta temporária removida após a cópia.
+- Laravel instalado na versão `13.29.0`.
+- PHP utilizado na versão `8.3.26`.
+- Composer utilizado na versão `2.9.4`.
+- Aplicação Laravel adicionada ao Git.
+- Commit da aplicação realizado.
+- Branch `develop` enviada ao GitHub.
+
+### Validação
+
+Foi executada a validação técnica da aplicação Laravel e do repositório Git.
+
+Resultado:
+
+```text
+Laravel Framework 13.29.0
+PHP 8.3.26
+Composer 2.9.4
+```
+
+Estado do Git:
+
+```text
+Branch atual: develop
+Branch remota: origin/develop
+Working tree: clean
+```
 
 ### Testes
 
-Executado:
+Foi executado:
 
 ```text
 php artisan test
@@ -154,35 +178,33 @@ Tests\Feature\ExampleTest
 
 ### Git
 
-Os arquivos da aplicação Laravel ainda não foram adicionados ao Git.
-
-Estado atual:
+#### Commit
 
 ```text
-arquivos Laravel: untracked
-docs/: preservado
-working tree: não limpa
+aa2f6e3 chore: inicializa aplicação Laravel 13
 ```
 
-### Commit
+#### Branch atual
 
-Ainda não realizado.
+```text
+develop
+```
+
+#### Remoto
+
+```text
+origin/develop
+```
 
 ### Tag
 
 Ainda não criada.
 
-### Validação da etapa
-
-Validação técnica da aplicação realizada com sucesso.
-
-A etapa ainda não está formalmente concluída.
-
 ---
 
 # Próximo passo
 
-Adicionar a aplicação Laravel ao Git, realizar o commit da Etapa 0.2 e executar a validação final antes da criação da tag.
+Criar a tag da Etapa 0.2 e confirmar o estado final do repositório.
 
 Após o fechamento formal da Etapa 0.2:
 

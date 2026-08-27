@@ -33,7 +33,19 @@ Criar a base técnica do projeto.
 - Vite;
 - Lucide Icons;
 - layout responsivo;
-- estrutura inicial de documentação.
+- estrutura inicial de documentação
+
+###Sprint 0 — Fundação
+├── Etapa 0.1 — Preparação do repositório              CONCLUÍDA
+├── Etapa 0.2 — Criação da aplicação Laravel           CONCLUÍDA
+├── Etapa 0.3 — Configuração da infraestrutura         CONCLUÍDA
+├── Etapa 0.4 — Instalação e configuração do Breeze
+├── Etapa 0.5 — Instalação e configuração do Livewire
+├── Etapa 0.6 — Tailwind, Alpine e Lucide
+├── Etapa 0.7 — Layout base da aplicação
+├── Etapa 0.8 — Usuários e perfil inicial
+├── Etapa 0.9 — Testes da fundação
+└── Etapa 0.10 — Fechamento da Sprint 0
 
 ---
 

@@ -329,16 +329,80 @@ origin/develop
 
 ### Tag
 
-Será criada após o commit final da etapa.
+```text
+sprint-0-etapa-0.3
+```
 
 ---
 
-# Próximo passo
+### Etapa 0.4 — Instalação e configuração do Breeze
 
-Criar o commit de documentação da Etapa 0.3, enviar para `origin/develop`, criar a tag correspondente e confirmar o estado final do repositório.
+**Status:** CONCLUÍDA
 
-Após o fechamento formal da Etapa 0.3:
+### Objetivo
+
+Instalar e configurar o Laravel Breeze para fornecer a estrutura inicial de autenticação da aplicação, utilizando Blade com Alpine.js, mantendo o tema claro e PHPUnit como framework de testes.
+
+### Realizado
+
+- Laravel Breeze instalado como dependência de desenvolvimento.
+- Stack `Blade with Alpine` selecionada.
+- Dark mode desabilitado.
+- PHPUnit selecionado como framework de testes.
+- Estrutura de autenticação do Breeze instalada.
+- Migrations executadas com sucesso após a instalação.
+- Build dos assets executado com sucesso após a instalação.
+- Configuração de autenticação preparada para as próximas etapas.
+
+### Validação
+
+Foi executada a instalação do Laravel Breeze.
+
+Configuração selecionada:
 
 ```text
-Sprint 0 — Etapa 0.4
-```
+Stack: Blade with Alpine
+Dark mode: não
+Testes: PHPUnit
+
+
+
+Migrations:
+
+php artisan migrate
+
+Resultado:
+
+Executado sem erros
+
+Build:
+
+npm run build
+
+Resultado:
+
+Executado sem erros
+Testes
+
+A etapa foi validada após a instalação do Breeze.
+
+Não foram identificados erros durante a execução das migrations ou do build.
+
+Git
+Commit
+A realizar
+Branch atual
+develop
+Remoto
+origin/develop
+Tag
+
+Ainda não criada.
+
+Próximo passo
+
+Finalizar o registro da Etapa 0.4 no Git, realizar o commit, enviar a branch develop ao GitHub e criar a tag da etapa.
+
+Após o fechamento formal da Etapa 0.4:
+
+Sprint 0 — Etapa 0.5
